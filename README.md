@@ -93,6 +93,13 @@ try and follow as below for simplicity.  There are two roles in this model (you 
  does__.  When applying object calisthenics the Navigator should be checking that the Nine rules are not being 
  broken.  Correction and learning is the key here.
 
+
+----
+## Test Coverage
+to get code coverage from your your tests run the following command from your project directory
+`dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura`
+
+
 ----
 ## Object Calisthenics
 
