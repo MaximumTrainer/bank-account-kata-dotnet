@@ -31,3 +31,4 @@ bld/
 .idea/
 *.sln.iml
 
+coverage.cobertura.xml
