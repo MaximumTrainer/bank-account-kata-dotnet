@@ -47,7 +47,7 @@ We are assuming that you will have dotnet installed to run
 
 1. Clone this repo from github to your local machine
 1. From the command line type `dotnet build` to download dependencies and check the build is OK
-1. From Visual Stuido or Rider "open" the project using the `dotnet-kata.csproj` file
+1. From Visual Stuido or Rider "open" the project using the `BankAccountKata.sln` file
 1. Select to use the gradle wrapper and auto create folder etc
 1. Once opened start with a test
 
