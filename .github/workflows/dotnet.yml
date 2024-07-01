@@ -15,10 +15,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Setup dotnet ${{ matrix.dotnet-version }}
+    - name: Setup dotnet 8.0
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: ${{ matrix.dotnet-version }}
+        dotnet-version: 8.0
         cache: true
     - name: Restore dependencies
       run: dotnet restore
@@ -29,8 +29,8 @@ jobs:
     - name: Upload dotnet test results
       uses: actions/upload-artifact@v4
       with:
-        name: dotnet-results-${{ matrix.dotnet-version }}
-        path: TestResults-${{ matrix.dotnet-version }}
+        name: dotnet-results-8.0
+        path: TestResults-8.0
       # Use always() to always run this step to publish test results when there are test failures
       if: ${{ always() }}
 
