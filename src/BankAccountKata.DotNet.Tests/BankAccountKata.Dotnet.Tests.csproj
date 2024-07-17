@@ -19,8 +19,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\BankAccountKata.DotNet\BankAccountKata.Dotnet.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<Using Include="Xunit" />
-		<ProjectReference Include="..\..\src\BankAccountKata.DotNet\BankAccountKata.DotNet.csproj" />
 	</ItemGroup>
 
 </Project>
